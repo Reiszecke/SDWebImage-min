@@ -36,12 +36,6 @@ let package = Package(
                 .headerSearchPath("Core"),
                 .headerSearchPath("Private")
             ]
-        ),
-        .target(
-            name: "SDWebImageMapKit",
-            dependencies: ["SDWebImage"],
-            path: "SDWebImageMapKit",
-            sources: ["MapKit"]
         )
     ]
 )
